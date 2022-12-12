@@ -10,7 +10,7 @@ program
   .name(name)
   .version(version)
   .usage('[option]')
-  .description('Create a new project')
+  .description('📦  Create a new project')
   .option('-f, --force', 'overwrite target directory if it exists')
   .action((options) => {
     createModel(options);
@@ -18,7 +18,7 @@ program
 
 program.on('--help', () => {
   console.log();
-  console.log(`Run ${chalk.cyan(`${name} --help`)} for detailed usage of given command.`);
+  console.log(`🏷️  Run ${chalk.cyan(`${name} --help`)} for detailed usage of given command.`);
 });
 
 program.parse(process.argv);
