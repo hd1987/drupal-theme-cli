@@ -13,9 +13,9 @@ $ npx drupal-theme-cli
 🎉  Successfully created project my-project
 👉  Get started with the following commands:
 
-$ cd my-project
-$ npm install
-$ npm start
+    cd my-project
+    npm install
+    npm start
 ```
 
 ## ‼ Important Tips
